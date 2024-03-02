@@ -5,13 +5,13 @@ The aim of this project is to analyze bike share data for different cities (Chic
 The project provides the following functionalities:
 Time statistics: Calculates and displays the most frequent times of travel, such as the most common month, day of the week, and start hour.
 
--Station statistics: Calculates and displays the most popular start and end stations, as well as the most frequent combination of start and end stations for trips.
+- Station statistics: Calculates and displays the most popular start and end stations, as well as the most frequent combination of start and end stations for trips.
 
--Trip duration statistics: Calculates and displays the total and average trip duration.
+- Trip duration statistics: Calculates and displays the total and average trip duration.
 
--User statistics: Provides information about the types of users (e.g., subscribers, customers) and, if available, the gender and birth year distribution of users.
+- User statistics: Provides information about the types of users (e.g., subscribers, customers) and, if available, the gender and birth year distribution of users.
 
--Displaying raw data: Allows the user to view the raw data in the DataFrame, displaying 5 rows at a time.
+- Displaying raw data: Allows the user to view the raw data in the DataFrame, displaying 5 rows at a time.
 After each analysis, the user is asked if they want to view more raw data or restart the program..
 
 ### Requirements
@@ -39,5 +39,6 @@ Contributions to this project are welcome. If you have any suggestions, bug repo
 
 ## Contact
 For any inquiries or feedback, please contact us at alzahrani.s.reem@gmail.com
-Happy analyzing!
+
+**Happy analyzing!**
 
