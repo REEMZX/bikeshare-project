@@ -195,21 +195,29 @@ def display_data(df):
             print("Invalid input. Please enter 'yes' or 'no'.")
 
 def main():
+    # Loop to repeatedly prompt the user for city, month, and day filters
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
+        # Perform various statistical analyses on the data
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
 
+        # Display raw data if requested
         display_data(df)
         
+        # Prompt the user if they want to restart or exit the program
         restart = input('\nWould you like to restart? Enter \'yes\' or \'no\'.\n')
+        
+        # Validate user input for restart prompt
         while restart.lower() not in ['yes', 'no']:
             print("Invalid input. Please enter either 'yes' or 'no'.")
             restart = input('\nWould you like to restart? Enter \'yes\' or \'no\'.\n')
+        
+        # Break the loop and exit the program if user does not want to restart
         if restart.lower() != 'yes':
             break
 
