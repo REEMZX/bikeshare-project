@@ -220,8 +220,6 @@ def main():
         # Break the loop and exit the program if user does not want to restart
         if restart.lower() != 'yes':
             break
-
-        #restart = input('\nWould you like to restart? Enter \'yes\' or \'no\'.\n')
        
 
 if __name__ == "__main__":
