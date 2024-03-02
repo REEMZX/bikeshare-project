@@ -16,9 +16,9 @@ After each analysis, the user is asked if they want to view more raw data or res
 
 ### Requirements
 To run this project, the following dependencies are required:
-Python 3.x
-Pandas library
-NumPy library
+- Python 3.x
+- Pandas library
+- NumPy library
 
 ### Installation
 Clone the repository:
